@@ -1,0 +1,40 @@
+import { AuthUser } from '../types';
+
+export const DEMO_USERS: Record<string, AuthUser> = {
+  officer: {
+    id: 'officer-1',
+    name: 'Shri Rajesh Kumar',
+    email: 'procurement.officer@gem.gov.in',
+    role: 'OFFICER',
+    roleLabel: 'Procurement Officer',
+    designation: 'Directorate of Public Procurement',
+    department: 'Ministry of Commerce & Industry',
+    avatarInitials: 'PO',
+    idNumber: 'GEM-PO-2025-0891',
+    organization: 'Government e-Marketplace (GeM SPV)',
+  },
+  bidder: {
+    id: 'bidder-user-1',
+    name: 'Vikram Malhotra',
+    email: 'v.malhotra@shreetech.com',
+    role: 'BIDDER',
+    roleLabel: 'Registered Bidder (Seller)',
+    designation: 'Director - Government Bids & Tenders',
+    department: 'Shree Tech Solutions Pvt. Ltd.',
+    avatarInitials: 'VM',
+    idNumber: 'GEM-SELLER-98421',
+    organization: 'Shree Tech Solutions Pvt. Ltd. (GSTIN: 27ABCDE1234F1Z5)',
+  },
+  auditor: {
+    id: 'auditor-1',
+    name: 'Smt. Anita Sharma',
+    email: 'auditor.cag@gov.in',
+    role: 'AUDITOR',
+    roleLabel: 'Statutory Auditor (CAG)',
+    designation: 'Principal Audit Officer',
+    department: 'Comptroller and Auditor General of India',
+    avatarInitials: 'AS',
+    idNumber: 'CAG-AUD-2025-004',
+    organization: 'CAG Vigilance & Transparency Directorate',
+  },
+};

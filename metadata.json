@@ -1,0 +1,8 @@
+{
+  "name": "Remix Evidence-First AI Bid Verification Engine",
+  "description": "Compliance verification platform for GeM government procurement tenders with evidence-backed audit trails and deterministic rules engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
